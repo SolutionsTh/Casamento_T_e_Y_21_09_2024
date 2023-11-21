@@ -1,0 +1,112 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body{
+	background:url(../Img/Background/3.jpg) repeat-x fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+  word-wrap: break-word;
+}
+
+ul{
+  padding: 0;
+}
+
+
+/* Scroll */
+body::-webkit-scrollbar {
+  width: 4px;
+}
+
+body::-webkit-scrollbar-track {
+	background: #ffffff;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #EF7D00;
+  border-radius: 10px;
+}
+
+
+/* FONTE */
+
+@font-face {
+  font-family: fonte1;
+  src: Url("../Fonte/Nickainley-Normal.otf");
+}
+
+
+/* MAIN */
+.main{
+  display: flex;
+  height: 100vh;
+}
+.conteudoMain{
+  margin: auto;
+  text-align: center;
+  background-color: #ffffffb5;
+  border-radius: 20px;
+  padding: 15px;
+  color: #CC4125;
+}
+/* header */
+.header{
+  padding-bottom: 30px;
+}
+.nomeHeader{
+  font-family: fonte1;
+  font-size: 52px;
+}
+
+/* article */
+.imgConvite{
+  padding: 5px;
+  width: 30%;
+  cursor: pointer;
+}
+.imgConvite:hover{
+  padding: 4px 5px;
+  width: 31%;
+}
+.texto{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* footer */
+.footer{
+  padding-top: 40px;
+}
+.botaoLink{
+  cursor: pointer;
+  padding: 10px;
+}
+.iconGoogle{
+  padding: 15px;
+  border-radius: 50px;
+  background-color: #647949;
+  color: #ffffff;
+}
+.iconGoogle:hover{
+  background-color: #465433;
+}
+
+
+@media only screen and (max-width: 630px){
+  .linkMenu{
+    width: auto;
+  }
+}
+@media only screen and (max-width: 455px){
+  .linkMenu{
+    width: 35%;
+  }
+  .imgBotao{
+    padding: 0px 12px;
+    margin-bottom: 10px;
+  }
+}
