@@ -47,7 +47,8 @@ a{
   display: flex;
 }
 .imagem{
-  width: 40%;
+  margin: auto;
+  width: 50%;
 }
 .botao{
   font-size: 20px;
